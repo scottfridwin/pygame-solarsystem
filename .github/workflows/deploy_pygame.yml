@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-pygbag:
-    name: FridWin: Solar System Pygame 
+    name: "FridWin: Solar System Pygame"
     runs-on: ubuntu-latest
 
     steps:
