@@ -1,4 +1,5 @@
 # Introduction 
+<img src="https://github.com/scottfridwin/pygame-solarsystem/assets/96879441/7279595c-4749-4403-a0fd-bc277cfe17bf" alt="solar-system-basic" width="400"/>
 
 Contains a pygame project for creating a solar system simulation. Intended to be used as a coding lesson and divided into different directories with different levels of 'completed' code.
 
