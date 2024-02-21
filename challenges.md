@@ -14,7 +14,6 @@ This challenge is pretty straightforward: Add the rest of the planets in our sol
   ```
     GREY_BROWN = (128, 128, 128)
     YELLOW_WHITE = (255, 255, 224)
-    PURE_BLUE = (0, 0, 255)
     RUSTY_RED = (188, 39, 50)
     ORANGE = (255, 165, 0)
     PALE_YELLOW = (255, 255, 204)
