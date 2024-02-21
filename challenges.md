@@ -134,3 +134,30 @@ It's fun to see where a planet is, but what about seeing where it was? In this c
   ```
 
 </details>
+
+
+## Create a system with 2 stars
+
+Can you create a solar system that contains 2 stars that orbit around each other in (mostly) stable orbits? 
+
+<details>
+  <summary><i>Expand for solution</i></summary>
+
+  I don't have an actual solution here! This is the closest that I was able to get. I created 2 stars of equal mass and placed them at equal distance from the center point. It is almost stable, but they eventually get closer and closer until they crash!
+
+```diff
+-   sun = Body(0, 0, 0, 0, 1.9891e30, 20, Colors.YELLOW)
+-   bodies.append(sun)
+-
+-   earth = Body(Physics.AU, 0, 0, 29.783e3,
+-                5.97e24, 9, Colors.BLUE)
+-   bodies.append(earth)
++   mass = 2e29
++   distance = Physics.AU
++   velocity = math.sqrt(Physics.G * mass * 2 / (distance * 2)) / 2
++   star1 = Body(distance, 0, 0, velocity, mass, 20, Colors.YELLOW)
++   bodies.append(star1)
+
++   star2 = Body(-1*distance, 0, 0, -1 * velocity, mass, 20, Colors.RED)
++   bodies.append(star2)
+```
