@@ -17,11 +17,11 @@ def main():
 
     bodies: list['Body'] = []
     # Add bodies to be simulated
-    sun = Body(0, 0, 0, 0, 1.98892 * 10**30, 30, Colors.YELLOW)
+    sun = Body(0, 0, 0, 0, 1.9891e30, 20, Colors.YELLOW)
     bodies.append(sun)
 
-    earth = Body(-1 * Physics.AU, 0, 0, 29.783 * 1000,
-                 5.9742 * 10**24, 16, Colors.BLUE)
+    earth = Body(Physics.AU, 0, 0, 29.783e3,
+                 5.97e24, 9, Colors.BLUE)
     bodies.append(earth)
 
     run = True

@@ -30,7 +30,7 @@ class Physics:
     Represents the astronomical unit (AU), which is the average distance
       between the Earth and the Sun. It is expressed in meters (149.6 million kilometers).
     """
-    AU = 149.6e6 * 1000
+    AU = 1.496e11
 
     """
     Gravitational constant (G) in m³ kg⁻¹ s⁻²
