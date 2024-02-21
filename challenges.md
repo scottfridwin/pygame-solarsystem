@@ -126,11 +126,11 @@ It's fun to see where a planet is, but what about seeing where it was? In this c
           pygame.draw.circle(win, self.color, (x, y), self.r)
 
   +       if len(self.orbit) > 2:
-  +       scaled_points = []
-  +       for x, y in self.orbit:
-  +           scaled_points.append(
-  +           (x * scale + win.get_width() / 2, y * scale + win.get_height() / 2))
-  +       pygame.draw.lines(win, self.color, False, scaled_points, 2)
+  +           scaled_points = []
+  +           for x, y in self.orbit:
+  +               scaled_points.append(
+  +               (x * scale + win.get_width() / 2, y * scale + win.get_height() / 2))
+  +           pygame.draw.lines(win, self.color, False, scaled_points, 2)
   ```
 
 </details>
