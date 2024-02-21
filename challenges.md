@@ -161,3 +161,28 @@ Can you create a solar system that contains 2 stars that orbit around each other
 +   star2 = Body(-1*distance, 0, 0, -1 * velocity, mass, 20, Colors.RED)
 +   bodies.append(star2)
 ```
+
+
+## Add a rogue planet/star to a stable system
+
+_This challenge is best if you add it on top of the "Complete our solar system" and "Add orbit lines" challenges._
+
+Can you add a rogue planet or star to a stable solar system and watch the resulting chaos?
+
+<details>
+  <summary><i>Expand for solution</i></summary>
+
+  There are infinite possibilities for how you can do this. The example solution here shows adding a **massive** rogue star that plows through our solar system.
+
+```diff
+    uranus = Body(2.867e12, 0, 0, 6.81e3,
+                  8.68e25, 9, Colors.PALE_BLUE_GREEN)
+    bodies.append(uranus)
+
+    neptune = Body(4.515e12, 0, 0, -5.43e3,
+                   1.02e26, 9.75, Colors.DEEP_BLUE)
+    bodies.append(neptune)
+
++   rogue = Body(10e13, 10.2e13, -2e5, -2e5, 5e32, 20, Colors.DARK_GREY)
++   bodies.append(rogue)
+```
