@@ -189,3 +189,17 @@ Can you add a rogue planet or star to a stable solar system and watch the result
 ```
 
 </details>
+
+# More challenges
+
+## Collision detection
+
+Can you add logic that detects when 2 bodies collide? Maybe they merge together, or maybe they explode into lots of small pieces?
+
+## Captured planet
+
+Can you create a system where a rogue planet is captured by a star's gravity and enters a stable orbit?
+
+## Space explorers
+
+Can you simulate a rocket launching from Earth and landing on a nearby planet?
