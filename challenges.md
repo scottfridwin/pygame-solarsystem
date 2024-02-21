@@ -162,6 +162,7 @@ Can you create a solar system that contains 2 stars that orbit around each other
 +   bodies.append(star2)
 ```
 
+</details>
 
 ## Add a rogue planet/star to a stable system
 
@@ -186,3 +187,5 @@ Can you add a rogue planet or star to a stable solar system and watch the result
 +   rogue = Body(10e13, 10.2e13, -2e5, -2e5, 5e32, 20, Colors.DARK_GREY)
 +   bodies.append(rogue)
 ```
+
+</details>
